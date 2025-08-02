@@ -8,11 +8,7 @@ venv/
 .env/
 env/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
 
-# Jupyter Notebook outputs (optional, if you want to ignore outputs)
-*.ipynb
 
 # Jupyter runtime files
 .jupyter/
