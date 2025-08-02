@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+.env/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebook outputs (optional, if you want to ignore outputs)
+*.ipynb
+
+# Jupyter runtime files
+.jupyter/
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS system files (optional)
+.DS_Store
+
+# Python package distribution / build folders
+build/
+dist/
+*.egg-info/
+
+# Pytest cache (optional)
+.pytest_cache/
+
+# Coverage reports (optional)
+.coverage
+htmlcov/
+
+# Logs and databases (optional)
+*.log
+*.sqlite3
+
+# Numpy cache files (optional)
+*.npy
+*.npz
+
+# Environment variable files
+.env
+
+# Pycharm (optional)
+.idea/
