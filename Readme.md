@@ -1,27 +1,32 @@
-# Numpy basics with JupyterNotebook 
+# Numpy basics with JupyterNotebook
 
 ## setup
 
 - set up virtual environment python
+- activate frickin venv everytime
+
 ```
     python -m venv venv
 
     venv\Scripts\activate
+    
 ```
 
 - dependencies
-    ```
-        pip install ipykernel jupyter
-    ```
-
-
+  ```
+      pip install ipykernel jupyter
+  ```
+  - run this after every `pip install`
+  ```
+     pip freeze > requirements.txt
+  ```
 
 ---
 
 ## 🧭 Modes to Know
 
-* **Edit Mode** → You're typing inside a cell (`green bar`)
-* **Command Mode** → You're controlling cells (`blue bar`)
+- **Edit Mode** → You're typing inside a cell (`green bar`)
+- **Command Mode** → You're controlling cells (`blue bar`)
 
 Toggle between them:
 
@@ -82,7 +87,6 @@ Toggle between them:
 
 ## 🧠 Bonus Tips
 
-* `Ctrl + Shift + P` → VSCode command palette (type `jupyter` to explore extensions/settings)
-* `Ctrl + /` → Toggle comment in a code cell
-* `Ctrl + K Ctrl + S` → See **all shortcuts** in VSCode
-
+- `Ctrl + Shift + P` → VSCode command palette (type `jupyter` to explore extensions/settings)
+- `Ctrl + /` → Toggle comment in a code cell
+- `Ctrl + K Ctrl + S` → See **all shortcuts** in VSCode
