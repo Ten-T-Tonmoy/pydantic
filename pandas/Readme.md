@@ -76,3 +76,4 @@ conn = sqlite3.connect('database.db')
 df = pd.read_sql_query('SELECT * FROM table_name', conn)
 ```
 
+

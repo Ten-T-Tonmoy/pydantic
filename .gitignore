@@ -8,6 +8,8 @@ venv/
 .env/
 env/
 
+help.md
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
