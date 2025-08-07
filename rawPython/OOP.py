@@ -52,3 +52,6 @@ husky1.bark()
 
 # static method can use without instantiating
 print(Dog.lookUp(["a", "b", "c"], "b"))
+
+# Multi inheritance
+# class Labrador(Animal,Dog):
